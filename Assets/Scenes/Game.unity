@@ -162,7 +162,7 @@ MonoBehaviour:
   - {fileID: 1926895950401239605, guid: 1fa936befa9461040aa6540500fafdc0, type: 3}
   min_x: -2.6
   max_x: 2.6
-  delayTime: 0.65
+  delayTime: 0.55
 --- !u!4 &395688823
 Transform:
   m_ObjectHideFlags: 0
