@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class BGScroll : MonoBehaviour
 {
-    private MeshRenderer msh;
+    private Renderer msh;
     public float speed = 0.5f;
-    private void Awake()
+    void Awake()
     {
-        msh = GetComponent<MeshRenderer>();
+        msh = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       Vector2 Offset =new Vector2(0f,Time.time * speed);
-        msh.material.mainTextureOffset = Offset;
+           msh.material.mainTextureOffset = new Vector2(0f, Time.time * speed);
     }
 }
